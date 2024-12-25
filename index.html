@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> </title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<form action="http://localhost:9090/" method="post">
+			<table>
+				<tr>
+					<td><p>Наименование товара:</p></td>
+					<td><input name="Product name"></td>
+				</tr>
+				<tr>
+					<td><p>Количество товара:</p></td>
+					<td><input name="Amount of product"></td>
+				</tr>
+				<tr>
+					<td><p>Способ доставки:</p></td>
+					<td><div><input type="radio" name="Delivery type" value="on feet">On feet</div><br><div><input type="radio" name="Delivery type" value="Russian Mail">Rusian Mail</div><br><div><input type="radio" name="Delivery type" value="Transport">Transport</div></td>
+				</tr>
+				<tr>
+					<td><p>Время доставки:</p></td>
+					<td><input name="Delivery time"></td>
+				</tr>
+			</table>
+			<p><input type="submit" id="botton"></p>
+		</form>
+	</body>
+</html>
